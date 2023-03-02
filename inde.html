@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div id="tbox" style="align-self: end; padding-right: 18%;">
+            <div class="date">
+                <div id="hour" class="hour" style="letter-spacing: 0.083em;"></div>
+                <div class="second">
+                    <div id="second_1" class="seconds" style="letter-spacing: 0.185em;"></div>
+                    <!-- <div style="width: 4%;"> </div> -->
+                    <div id="second_2" class="seconds"></div>
+                </div>
+            </div>
+        </div>
+        <div class="status">
+            <h1 class="name"></h1>
+            <p class="desc"></p>
+            <p class="temp"></p>
+            
+        </div>
+        <div class="enter">
+            <input type="text" id="location" placeholder="Enter the Location">
+            <button id="submit">Enter</button>
+        </div>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
