@@ -114,6 +114,10 @@ button:hover{
     /* color: rgb(248, 6, 58); */
     -webkit-text-stroke:black 0.1px;
 } 
+#tbox{
+    align-self: end;
+    padding-right: 18%;
+}
 
 @media screen and (max-width: 640px){
     .container{
@@ -121,6 +125,7 @@ button:hover{
         align-items: center;
     }
     #tbox{
+        align-self: auto;
         padding: 0;
     }
 
